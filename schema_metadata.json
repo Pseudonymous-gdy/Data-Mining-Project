@@ -1,0 +1,85 @@
+{
+  "n_rows": 200,
+  "n_cols": 5,
+  "columns": [
+    {
+      "name": "CustomerID",
+      "dtype": "int64",
+      "non_null": 200,
+      "nulls": 0,
+      "unique": 200,
+      "examples": [
+        "1",
+        "2",
+        "3"
+      ],
+      "min": 1.0,
+      "max": 200.0,
+      "mean": 100.5,
+      "memory_bytes": 1732
+    },
+    {
+      "name": "Genre",
+      "dtype": "object",
+      "non_null": 200,
+      "nulls": 0,
+      "unique": 2,
+      "examples": [
+        "Female",
+        "Male"
+      ],
+      "min": null,
+      "max": null,
+      "mean": null,
+      "memory_bytes": 10956
+    },
+    {
+      "name": "Age",
+      "dtype": "int64",
+      "non_null": 200,
+      "nulls": 0,
+      "unique": 51,
+      "examples": [
+        "32",
+        "35",
+        "31"
+      ],
+      "min": 18.0,
+      "max": 70.0,
+      "mean": 38.85,
+      "memory_bytes": 1732
+    },
+    {
+      "name": "Annual Income (k$)",
+      "dtype": "int64",
+      "non_null": 200,
+      "nulls": 0,
+      "unique": 64,
+      "examples": [
+        "54",
+        "78",
+        "60"
+      ],
+      "min": 15.0,
+      "max": 137.0,
+      "mean": 60.56,
+      "memory_bytes": 1732
+    },
+    {
+      "name": "Spending Score (1-100)",
+      "dtype": "int64",
+      "non_null": 200,
+      "nulls": 0,
+      "unique": 84,
+      "examples": [
+        "42",
+        "55",
+        "73"
+      ],
+      "min": 1.0,
+      "max": 99.0,
+      "mean": 50.2,
+      "memory_bytes": 1732
+    }
+  ]
+}
